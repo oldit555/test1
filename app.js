@@ -4,7 +4,6 @@ var log = require('logger');
 var bodyParser = require("restify-plugin-json-body-parser");
 var errorHandler = require('helpers/errorHandler').ErrorHandler;
 var session = require('libs/session');
-var _ = require('underscore');
 var User = require('models/userModel').User;
 
 var server = restify.createServer({
